@@ -196,6 +196,9 @@ Now press (Ctrl-X) to exit
 Open url http://antony.com:8000 to login 
 
 
+
+
+
 ### STEP 15 install ERPNext latest version in bench & site
 
     
@@ -204,6 +207,8 @@ Open url http://antony.com:8000 to login
     bench get-app https://github.com/frappe/erpnext --branch version-15
 
     bench --site antony.com install-app erpnext
+
+    bench --site antony.com migrate
     
     bench start
     
